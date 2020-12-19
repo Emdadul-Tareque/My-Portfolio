@@ -1,0 +1,39 @@
+.topbar ul li a {
+    text-transform: uppercase;
+    font-weight: 600px;
+  }
+  
+  .topbar ul li {
+    position: relative;
+  }
+  
+  .topbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background-color: #009688;
+    position: absolute;
+    left: 0;
+    transition: 0.5s;
+  }
+  
+  .topbar ul li:hover::after {
+    width: 80%;
+  }
+ 
+ 
+  
+  
+  
+  
+
+  .btn-outline-secondary {
+    border-radius: 20px;
+    width: 150px;
+}
+
+.navbar-toggler{
+  background: white;
+}
+ 
+  
