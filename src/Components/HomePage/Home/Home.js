@@ -1,17 +1,18 @@
 import React from "react";
+import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import MessengerCustomerChat from "react-messenger-customer-chat";
-import "./Home.css";
-import profile from "../../../images/profile-pic.png";
 import Typist from "react-typist";
-
-import { FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa";
+import profile from "../../../images/profilePic.jpeg";
 import Header from "../Header/Header";
+import "./Home.css";
+
 
 const Home = () => {
   return (
     <div>
       <section className="section">
         <Header></Header>
+        <div className=" main d-flex align-items-center justify-content-center">
         <div className="home-body d-flex align-items-center justify-content-center">
           <div className="mt-5">
             <div className="profile-img">
@@ -64,6 +65,7 @@ const Home = () => {
               </div>
             </div>
           </div>
+        </div>
         </div>
         <MessengerCustomerChat
           pageId="<106709411327830>"
